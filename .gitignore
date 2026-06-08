@@ -1,0 +1,73 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# Node
+node_modules/
+dist/
+build/
+.vite/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Bun
+# (keep bun.lockb committed for reproducible installs)
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.mypy_cache/
+.python-version
+venv/
+.env
+.env.local
+.env.* 
+.venv/
+
+# Tests & coverage
+.pytest_cache/
+coverage/
+.coverage
+htmlcov/
+
+# Logs
+*.log
+
+# Databases
+*.sqlite
+*.db
+*.sqlite3
+
+# Editors / IDEs
+.vscode/
+.idea/
+.history/
+
+# Caches / temp
+.cache/
+tmp/
+temp/
+*.tmp
+
+# Secrets / keys
+*.pem
+*.key
+*.crt
+secrets.json
+local.settings.json
+
+# Large/generated
+*.pdf
+*.wav
+*.mp3
+*.webm
+exports/
+
+# Optional: hide environment override files used locally
+.env.local
+
+# Keep examples committed
+!backend/.env.example

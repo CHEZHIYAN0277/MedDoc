@@ -1,0 +1,218 @@
+{
+  "id": "DEMO-MULTILINGUAL-1",
+  "context": "non-emergency",
+  "mode": "review-pending",
+  "listening_status": "reviewing",
+  "started_at": "2026-02-09T15:00:00",
+  "last_updated_at": "2026-02-09T15:06:00",
+  "tags": ["Awaiting Review", "Multilingual"],
+  "transcript": [
+    {
+      "id": 1,
+      "text": "Caregiver speaking in Tamil, translated to English: This is my father Rajesh, fifty-five years old male.",
+      "speaker": "Caregiver",
+      "timestamp": "00:00"
+    },
+    {
+      "id": 2,
+      "text": "He is having fever, cold and cough for the past three days.",
+      "speaker": "Caregiver",
+      "timestamp": "00:05"
+    },
+    {
+      "id": 3,
+      "text": "Doctor: Can you tell me when the symptoms started?",
+      "speaker": "Doctor",
+      "timestamp": "00:10"
+    },
+    {
+      "id": 4,
+      "text": "Caregiver in Tamil, translated: Since three days. He has body pain and headache. No breathing difficulty.",
+      "speaker": "Caregiver",
+      "timestamp": "00:14"
+    },
+    {
+      "id": 5,
+      "text": "He has a history of hypertension for five years. He is taking amlodipine five milligrams daily.",
+      "speaker": "Caregiver",
+      "timestamp": "00:20"
+    },
+    {
+      "id": 6,
+      "text": "No known drug allergies.",
+      "speaker": "Caregiver",
+      "timestamp": "00:25"
+    },
+    {
+      "id": 7,
+      "text": "Doctor: I am checking his vitals now. Blood pressure one thirty over eighty five, heart rate eighty eight, temperature ninety nine point two Fahrenheit.",
+      "speaker": "Doctor",
+      "timestamp": "00:28"
+    },
+    {
+      "id": 8,
+      "text": "Respiratory rate sixteen per minute, oxygen saturation ninety seven percent on room air. He is alert and oriented.",
+      "speaker": "Doctor",
+      "timestamp": "00:35"
+    }
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "question": "What is the patient's blood pressure?",
+      "category": "Vitals",
+      "status": "answered",
+      "response": "130 over 85"
+    },
+    {
+      "id": 2,
+      "question": "What is the patient's temperature?",
+      "category": "Vitals",
+      "status": "answered",
+      "response": "99.2 Fahrenheit"
+    }
+  ],
+  "live_summary": {
+    "patientName": {
+      "value": "Rajesh",
+      "confidence": "high",
+      "filled": true
+    },
+    "patientAge": {
+      "value": "55 years",
+      "confidence": "high",
+      "filled": true
+    },
+    "gender": {
+      "value": "Male",
+      "confidence": "high",
+      "filled": true
+    },
+    "chiefComplaint": {
+      "value": "fever, cold and cough",
+      "confidence": "high",
+      "filled": true
+    },
+    "vitalSigns": {
+      "bloodPressure": {
+        "value": "130/85",
+        "confidence": "high",
+        "filled": true
+      },
+      "heartRate": {
+        "value": "88 bpm",
+        "confidence": "high",
+        "filled": true
+      },
+      "temperature": {
+        "value": "99.2",
+        "confidence": "high",
+        "filled": true
+      },
+      "respiratoryRate": {
+        "value": "16/min",
+        "confidence": "high",
+        "filled": true
+      },
+      "oxygenSaturation": {
+        "value": "97%",
+        "confidence": "high",
+        "filled": true
+      }
+    },
+    "medicalHistory": {
+      "value": "hypertension for five years",
+      "confidence": "high",
+      "filled": true
+    },
+    "riskFlags": {
+      "value": "",
+      "confidence": "low",
+      "filled": false
+    },
+    "presentIllness": {
+      "value": "Fever, cold and cough for the past three days. Body pain and headache. No breathing difficulty.",
+      "confidence": "medium",
+      "filled": true
+    },
+    "drugAllergies": {
+      "value": "No known drug allergies",
+      "confidence": "high",
+      "filled": true
+    },
+    "currentMedications": {
+      "value": "amlodipine 5 mg daily",
+      "confidence": "high",
+      "filled": true
+    },
+    "timeOfOnset": {
+      "value": "for the past three days",
+      "confidence": "high",
+      "filled": true
+    },
+    "consciousnessLevel": {
+      "value": "alert",
+      "confidence": "high",
+      "filled": true
+    },
+    "orientationPerson": {
+      "value": "oriented",
+      "confidence": "high",
+      "filled": true
+    },
+    "orientationPlace": {
+      "value": "oriented",
+      "confidence": "high",
+      "filled": true
+    },
+    "orientationTime": {
+      "value": "oriented",
+      "confidence": "high",
+      "filled": true
+    },
+    "knownConditions": {
+      "value": "hypertension",
+      "confidence": "high",
+      "filled": true
+    },
+    "provisionalDiagnosis": {
+      "value": "",
+      "confidence": "low",
+      "filled": false
+    },
+    "investigationsOrdered": {
+      "value": "",
+      "confidence": "low",
+      "filled": false
+    },
+    "medicationsInterventions": {
+      "value": "",
+      "confidence": "low",
+      "filled": false
+    },
+    "disposition": {
+      "value": "",
+      "confidence": "low",
+      "filled": false
+    },
+    "consentObtained": {
+      "value": "",
+      "confidence": "low",
+      "filled": false
+    },
+    "consentNotObtainedReason": {
+      "value": "",
+      "confidence": "low",
+      "filled": false
+    },
+    "attendantName": {
+      "value": "",
+      "confidence": "low",
+      "filled": false
+    },
+    "validationFlags": []
+  },
+  "review_form": null,
+  "approved": false,
+  "approved_at": null
+}

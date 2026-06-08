@@ -1,0 +1,237 @@
+{
+  "id": "DEMO-CASE-1",
+  "context": "non-emergency",
+  "mode": "review-pending",
+  "listening_status": "reviewing",
+  "started_at": "2026-02-09T12:00:00",
+  "last_updated_at": "2026-02-09T12:05:00",
+  "tags": ["Awaiting Review"],
+  "transcript": [
+    {
+      "id": 1,
+      "text": "This is Ananya, eighteen-year-old female.",
+      "speaker": "Patient",
+      "timestamp": "00:00"
+    },
+    {
+      "id": 2,
+      "text": "She is having high fever and headache for the past two days.",
+      "speaker": "Patient",
+      "timestamp": "00:03"
+    },
+    {
+      "id": 3,
+      "text": "The fever started suddenly two nights ago and has been persistent since then.",
+      "speaker": "Patient",
+      "timestamp": "00:08"
+    },
+    {
+      "id": 4,
+      "text": "She feels very tired, with mild body pain, but there is no vomiting, no cough, and no breathing difficulty.",
+      "speaker": "Patient",
+      "timestamp": "00:15"
+    },
+    {
+      "id": 5,
+      "text": "She has a history of type two diabetes and hypertension for the last three years.",
+      "speaker": "Patient",
+      "timestamp": "00:22"
+    },
+    {
+      "id": 6,
+      "text": "She is currently taking metformin five hundred milligrams twice daily and amlodipine five milligrams once daily.",
+      "speaker": "Patient",
+      "timestamp": "00:28"
+    },
+    {
+      "id": 7,
+      "text": "For this fever she started taking Dolo six fifty twice daily from yesterday.",
+      "speaker": "Patient",
+      "timestamp": "00:35"
+    },
+    {
+      "id": 8,
+      "text": "She has no known drug allergies.",
+      "speaker": "Patient",
+      "timestamp": "00:40"
+    },
+    {
+      "id": 9,
+      "text": "On arrival to the emergency room, her blood pressure is one twenty over eighty, heart rate is ninety two per minute, temperature is one hundred point four degrees Fahrenheit, respiratory rate is eighteen per minute, and oxygen saturation is ninety eight percent on room air.",
+      "speaker": "Doctor",
+      "timestamp": "00:45"
+    },
+    {
+      "id": 10,
+      "text": "She is alert, oriented to person, place, and time, and able to answer questions clearly.",
+      "speaker": "Doctor",
+      "timestamp": "00:52"
+    }
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "question": "What is the patient's blood pressure?",
+      "category": "Vitals",
+      "status": "answered",
+      "response": "120 over 80"
+    },
+    {
+      "id": 2,
+      "question": "What is the patient's heart rate?",
+      "category": "Vitals",
+      "status": "answered",
+      "response": "92 per minute"
+    },
+    {
+      "id": 3,
+      "question": "What is the patient's temperature?",
+      "category": "Vitals",
+      "status": "answered",
+      "response": "100.4 degrees Fahrenheit"
+    }
+  ],
+  "live_summary": {
+    "patientName": {
+      "value": "Ananya",
+      "confidence": "high",
+      "filled": true
+    },
+    "patientAge": {
+      "value": "18 years",
+      "confidence": "high",
+      "filled": true
+    },
+    "gender": {
+      "value": "Female",
+      "confidence": "high",
+      "filled": true
+    },
+    "chiefComplaint": {
+      "value": "high fever and headache",
+      "confidence": "high",
+      "filled": true
+    },
+    "vitalSigns": {
+      "bloodPressure": {
+        "value": "120/80",
+        "confidence": "high",
+        "filled": true
+      },
+      "heartRate": {
+        "value": "92 bpm",
+        "confidence": "high",
+        "filled": true
+      },
+      "temperature": {
+        "value": "100.4",
+        "confidence": "high",
+        "filled": true
+      },
+      "respiratoryRate": {
+        "value": "18/min",
+        "confidence": "high",
+        "filled": true
+      },
+      "oxygenSaturation": {
+        "value": "98%",
+        "confidence": "high",
+        "filled": true
+      }
+    },
+    "medicalHistory": {
+      "value": "type two diabetes and hypertension for the last three years",
+      "confidence": "high",
+      "filled": true
+    },
+    "riskFlags": {
+      "value": "",
+      "confidence": "low",
+      "filled": false
+    },
+    "presentIllness": {
+      "value": "The fever started suddenly two nights ago and has been persistent since then. She feels very tired, with mild body pain, but there is no vomiting, no cough, and no breathing difficulty.",
+      "confidence": "medium",
+      "filled": true
+    },
+    "drugAllergies": {
+      "value": "No known drug allergies",
+      "confidence": "high",
+      "filled": true
+    },
+    "currentMedications": {
+      "value": "metformin 500 mg twice daily, amlodipine 5 mg once daily, Dolo 650 twice daily",
+      "confidence": "high",
+      "filled": true
+    },
+    "timeOfOnset": {
+      "value": "for the past two days",
+      "confidence": "high",
+      "filled": true
+    },
+    "consciousnessLevel": {
+      "value": "alert",
+      "confidence": "high",
+      "filled": true
+    },
+    "orientationPerson": {
+      "value": "oriented",
+      "confidence": "high",
+      "filled": true
+    },
+    "orientationPlace": {
+      "value": "oriented",
+      "confidence": "high",
+      "filled": true
+    },
+    "orientationTime": {
+      "value": "oriented",
+      "confidence": "high",
+      "filled": true
+    },
+    "knownConditions": {
+      "value": "type two diabetes, hypertension",
+      "confidence": "high",
+      "filled": true
+    },
+    "provisionalDiagnosis": {
+      "value": "",
+      "confidence": "low",
+      "filled": false
+    },
+    "investigationsOrdered": {
+      "value": "",
+      "confidence": "low",
+      "filled": false
+    },
+    "medicationsInterventions": {
+      "value": "",
+      "confidence": "low",
+      "filled": false
+    },
+    "disposition": {
+      "value": "",
+      "confidence": "low",
+      "filled": false
+    },
+    "consentObtained": {
+      "value": "",
+      "confidence": "low",
+      "filled": false
+    },
+    "consentNotObtainedReason": {
+      "value": "",
+      "confidence": "low",
+      "filled": false
+    },
+    "attendantName": {
+      "value": "",
+      "confidence": "low",
+      "filled": false
+    },
+    "validationFlags": []
+  },
+  "review_form": null,
+  "approved": false,
+  "approved_at": null
+}
